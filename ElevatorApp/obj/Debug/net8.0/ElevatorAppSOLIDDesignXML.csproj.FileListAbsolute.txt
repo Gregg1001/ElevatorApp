@@ -1,0 +1,14 @@
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\bin\Debug\net8.0\ElevatorAppSOLIDDesignXML.exe
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\bin\Debug\net8.0\ElevatorAppSOLIDDesignXML.deps.json
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\bin\Debug\net8.0\ElevatorAppSOLIDDesignXML.runtimeconfig.json
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\bin\Debug\net8.0\ElevatorAppSOLIDDesignXML.dll
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\bin\Debug\net8.0\ElevatorAppSOLIDDesignXML.pdb
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\obj\Debug\net8.0\ElevatorAppSOLIDDesignXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\obj\Debug\net8.0\ElevatorAppSOLIDDesignXML.AssemblyInfoInputs.cache
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\obj\Debug\net8.0\ElevatorAppSOLIDDesignXML.AssemblyInfo.cs
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\obj\Debug\net8.0\ElevatorAppSOLIDDesignXML.csproj.CoreCompileInputs.cache
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\obj\Debug\net8.0\ElevatorAppSOLIDDesignXML.dll
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\obj\Debug\net8.0\refint\ElevatorAppSOLIDDesignXML.dll
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\obj\Debug\net8.0\ElevatorAppSOLIDDesignXML.pdb
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\obj\Debug\net8.0\ElevatorAppSOLIDDesignXML.genruntimeconfig.cache
+C:\Repos\ElevatorAppSOLIDDesignXML\ElevatorAppSOLIDDesignXML\obj\Debug\net8.0\ref\ElevatorAppSOLIDDesignXML.dll

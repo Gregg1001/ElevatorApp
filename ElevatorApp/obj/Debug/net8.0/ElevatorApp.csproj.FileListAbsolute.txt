@@ -1,0 +1,14 @@
+C:\Repos\ElevatorApp\ElevatorApp\bin\Debug\net8.0\ElevatorApp.exe
+C:\Repos\ElevatorApp\ElevatorApp\bin\Debug\net8.0\ElevatorApp.deps.json
+C:\Repos\ElevatorApp\ElevatorApp\bin\Debug\net8.0\ElevatorApp.runtimeconfig.json
+C:\Repos\ElevatorApp\ElevatorApp\bin\Debug\net8.0\ElevatorApp.dll
+C:\Repos\ElevatorApp\ElevatorApp\bin\Debug\net8.0\ElevatorApp.pdb
+C:\Repos\ElevatorApp\ElevatorApp\obj\Debug\net8.0\ElevatorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\ElevatorApp\ElevatorApp\obj\Debug\net8.0\ElevatorApp.AssemblyInfoInputs.cache
+C:\Repos\ElevatorApp\ElevatorApp\obj\Debug\net8.0\ElevatorApp.AssemblyInfo.cs
+C:\Repos\ElevatorApp\ElevatorApp\obj\Debug\net8.0\ElevatorApp.csproj.CoreCompileInputs.cache
+C:\Repos\ElevatorApp\ElevatorApp\obj\Debug\net8.0\ElevatorApp.dll
+C:\Repos\ElevatorApp\ElevatorApp\obj\Debug\net8.0\refint\ElevatorApp.dll
+C:\Repos\ElevatorApp\ElevatorApp\obj\Debug\net8.0\ElevatorApp.pdb
+C:\Repos\ElevatorApp\ElevatorApp\obj\Debug\net8.0\ElevatorApp.genruntimeconfig.cache
+C:\Repos\ElevatorApp\ElevatorApp\obj\Debug\net8.0\ref\ElevatorApp.dll

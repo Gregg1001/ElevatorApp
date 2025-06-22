@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|c:\\repos\\elevatorappsoliddesignxml\\elevatorappsoliddesignxml\\elevatorcontrolsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|solutionrelative:elevatorappsoliddesignxml\\elevatorcontrolsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|c:\\repos\\elevatorappsoliddesignxml\\elevatorappsoliddesignxml\\elevatorcontrolsystem\\elevator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|solutionrelative:elevatorappsoliddesignxml\\elevatorcontrolsystem\\elevator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|c:\\repos\\elevatorappsoliddesignxml\\elevatorappsoliddesignxml\\elevatorcontrolsystem\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|solutionrelative:elevatorappsoliddesignxml\\elevatorcontrolsystem\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|c:\\repos\\elevatorappsoliddesignxml\\elevatorappsoliddesignxml\\elevatorcontrolsystem\\elevatorrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|solutionrelative:elevatorappsoliddesignxml\\elevatorcontrolsystem\\elevatorrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|c:\\repos\\elevatorappsoliddesignxml\\elevatorappsoliddesignxml\\testcases\\testcase1strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|solutionrelative:elevatorappsoliddesignxml\\testcases\\testcase1strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|c:\\repos\\elevatorappsoliddesignxml\\elevatorappsoliddesignxml\\elevatorcontrolsystem\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|solutionrelative:elevatorappsoliddesignxml\\elevatorcontrolsystem\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|c:\\repos\\elevatorappsoliddesignxml\\elevatorappsoliddesignxml\\elevatorcontrolsystem\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML.csproj|solutionrelative:elevatorappsoliddesignxml\\elevatorcontrolsystem\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestCase1Strategy.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\TestCases\\TestCase1Strategy.cs",
+              "RelativeDocumentMoniker": "ElevatorAppSOLIDDesignXML\\TestCases\\TestCase1Strategy.cs",
+              "ToolTip": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\TestCases\\TestCase1Strategy.cs",
+              "RelativeToolTip": "ElevatorAppSOLIDDesignXML\\TestCases\\TestCase1Strategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:29:44.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Request.cs",
+              "RelativeDocumentMoniker": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Request.cs",
+              "ToolTip": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Request.cs",
+              "RelativeToolTip": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Request.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T06:52:22.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Direction.cs",
+              "RelativeDocumentMoniker": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Direction.cs",
+              "ToolTip": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Direction.cs",
+              "RelativeToolTip": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Direction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T06:52:08.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Program.cs",
+              "ToolTip": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Program.cs",
+              "RelativeToolTip": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Program.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAgwGUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T06:40:33.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ElevatorRunner.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\ElevatorRunner.cs",
+              "RelativeDocumentMoniker": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\ElevatorRunner.cs",
+              "ToolTip": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\ElevatorRunner.cs",
+              "RelativeToolTip": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\ElevatorRunner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T06:58:42.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Elevator.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Elevator.cs",
+              "RelativeDocumentMoniker": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Elevator.cs",
+              "ToolTip": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Elevator.cs",
+              "RelativeToolTip": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Elevator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T06:47:02.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Passenger.cs",
+              "RelativeDocumentMoniker": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Passenger.cs",
+              "ToolTip": "C:\\Repos\\ElevatorAppSOLIDDesignXML\\ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Passenger.cs",
+              "RelativeToolTip": "ElevatorAppSOLIDDesignXML\\ElevatorControlSystem\\Passenger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T06:45:39.682Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
