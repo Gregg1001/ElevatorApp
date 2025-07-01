@@ -1,6 +1,6 @@
-﻿// ==========================================
-// ElevatorRunner.cs  - Uses Strategy Pattern
-// =========================================
+﻿// =============================================
+// ITestCaseStrategy.cs  - Uses Strategy Pattern
+// =============================================
 
 using System;
 using System.Collections.Generic;

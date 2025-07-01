@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Repos\\ElevatorApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|c:\\repos\\elevatorapp\\elevatorapp\\testcases\\interfaces\\itestcasestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|solutionrelative:elevatorapp\\testcases\\interfaces\\itestcasestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|c:\\repos\\elevatorapp\\elevatorapp\\testcases\\testcase1strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|solutionrelative:elevatorapp\\testcases\\testcase1strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|c:\\repos\\elevatorapp\\elevatorapp\\elevatorcontrolsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|solutionrelative:elevatorapp\\elevatorcontrolsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|c:\\repos\\elevatorapp\\elevatorapp\\elevatorcontrolsystem\\elevator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|solutionrelative:elevatorapp\\elevatorcontrolsystem\\elevator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|c:\\repos\\elevatorapp\\elevatorapp\\elevatorcontrolsystem\\interfaces\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|solutionrelative:elevatorapp\\elevatorcontrolsystem\\interfaces\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|c:\\repos\\elevatorapp\\elevatorapp\\elevatorcontrolsystem\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|solutionrelative:elevatorapp\\elevatorcontrolsystem\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|c:\\repos\\elevatorapp\\elevatorapp\\elevatorcontrolsystem\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|solutionrelative:elevatorapp\\elevatorcontrolsystem\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|c:\\repos\\elevatorapp\\elevatorapp\\elevatorcontrolsystem\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F563C38-4D1F-437D-B9A7-8907C136DDD2}|ElevatorApp\\ElevatorApp.csproj|solutionrelative:elevatorapp\\elevatorcontrolsystem\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +42,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestCase1Strategy.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorApp\\ElevatorApp\\TestCases\\TestCase1Strategy.cs",
+              "RelativeDocumentMoniker": "ElevatorApp\\TestCases\\TestCase1Strategy.cs",
+              "ToolTip": "C:\\Repos\\ElevatorApp\\ElevatorApp\\TestCases\\TestCase1Strategy.cs",
+              "RelativeToolTip": "ElevatorApp\\TestCases\\TestCase1Strategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T07:54:04.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITestCaseStrategy.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorApp\\ElevatorApp\\TestCases\\Interfaces\\ITestCaseStrategy.cs",
+              "RelativeDocumentMoniker": "ElevatorApp\\TestCases\\Interfaces\\ITestCaseStrategy.cs",
+              "ToolTip": "C:\\Repos\\ElevatorApp\\ElevatorApp\\TestCases\\Interfaces\\ITestCaseStrategy.cs",
+              "RelativeToolTip": "ElevatorApp\\TestCases\\Interfaces\\ITestCaseStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T07:54:03.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ElevatorApp\\ElevatorControlSystem\\Program.cs",
+              "ToolTip": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Program.cs",
+              "RelativeToolTip": "ElevatorApp\\ElevatorControlSystem\\Program.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAIwMkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T07:47:33.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Elevator.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Elevator.cs",
+              "RelativeDocumentMoniker": "ElevatorApp\\ElevatorControlSystem\\Elevator.cs",
+              "ToolTip": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Elevator.cs",
+              "RelativeToolTip": "ElevatorApp\\ElevatorControlSystem\\Elevator.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:17:44.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRequest.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Interfaces\\IRequest.cs",
+              "RelativeDocumentMoniker": "ElevatorApp\\ElevatorControlSystem\\Interfaces\\IRequest.cs",
+              "ToolTip": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Interfaces\\IRequest.cs",
+              "RelativeToolTip": "ElevatorApp\\ElevatorControlSystem\\Interfaces\\IRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:17:13.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Request.cs",
+              "RelativeDocumentMoniker": "ElevatorApp\\ElevatorControlSystem\\Request.cs",
+              "ToolTip": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Request.cs",
+              "RelativeToolTip": "ElevatorApp\\ElevatorControlSystem\\Request.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:17:07.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Passenger.cs",
+              "RelativeDocumentMoniker": "ElevatorApp\\ElevatorControlSystem\\Passenger.cs",
+              "ToolTip": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Passenger.cs",
+              "RelativeToolTip": "ElevatorApp\\ElevatorControlSystem\\Passenger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:16:45.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Direction.cs",
+              "RelativeDocumentMoniker": "ElevatorApp\\ElevatorControlSystem\\Direction.cs",
+              "ToolTip": "C:\\Repos\\ElevatorApp\\ElevatorApp\\ElevatorControlSystem\\Direction.cs",
+              "RelativeToolTip": "ElevatorApp\\ElevatorControlSystem\\Direction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T04:16:38.213Z"
             }
           ]
         }
