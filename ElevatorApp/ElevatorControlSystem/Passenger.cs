@@ -1,6 +1,6 @@
-﻿// ========================================
-// Passenger.cs (POCO + Strategy Provider)
-// ========================================
+﻿// =====================================================
+//// Passenger.cs (POCO - Provides IRequest for Elevator)
+// =====================================================
 
 /// <summary>
 /// Represents a passenger who generates a request.

@@ -1,6 +1,6 @@
-﻿// ==============================
-// Request.cs (Concrete Strategy)
-// ==============================
+﻿// ================================================================
+// Passenger.cs (POCO - Generates Request from passenger input)
+// ================================================================
 
 /// <summary>
 /// Represents an external elevator request.

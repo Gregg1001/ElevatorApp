@@ -13,4 +13,8 @@
     <None Remove="NewFolder\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="TestCases\Interfaces\ITestCaseStrategy.cs" />
+  </ItemGroup>
+
 </Project>
