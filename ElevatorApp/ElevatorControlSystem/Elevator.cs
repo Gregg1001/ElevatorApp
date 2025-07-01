@@ -30,7 +30,8 @@ public sealed class Elevator
     // People who want to go DOWN (list of floors)
     private readonly List<int> DownQueue = new();
 
-    // Someone outside the elevator pressed a button to call it
+    // Handles a request using Open/Closed Principle.
+    // Accepts any IRequest implementation (e.g., TimeRequest, EmergencyRequest) without modifying Elevator logic.
     public void AddRequest(IRequest request)
     {
         if (request.Floor > CurrentFloor)

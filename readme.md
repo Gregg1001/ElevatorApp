@@ -8,21 +8,26 @@ This is a C# console application that simulates an elevator system for a 10-stor
 
 ```
 ElevatorControlSystem/
-├── Program.cs // Entry point and UI navigation
-├── Elevator.cs // Core logic, elevator state & SCAN algorithm
-├── ElevatorRunner.cs // Main executor for test strategy selection
-├── Request.cs // POCO for external requests
-├── Passenger.cs // POCO for passenger with start/destination
-├── Direction.cs // Enum: Up, Down, Idle
-├── IRequest.cs // Interface for requests
-├── ITestCaseStrategy.cs // Strategy pattern interface for test execution
-├── ManualInputHandler.cs // Manual user input logic
-├── TestCases/
-│ ├── TestCase1Strategy.cs // Ground floor → Level 5
-│ ├── TestCase2Strategy.cs // Level 6 + Level 4 → Level 1
-│ ├── TestCase3Strategy.cs // L2 → L6, L4 → Ground
-│ ├── TestCase4Strategy.cs // Ground → L5, L4 + L10 → Ground
-├── README.md // This file
+    ├── Interface/
+    │   └── IRequest.cs             // Interface for requests
+    ├── Program.cs                  // Entry point and UI navigation
+    ├── Elevator.cs                 // Core logic, elevator state & SCAN algorithm
+    ├── ElevatorRunner.cs           // Main executor for test strategy selection
+    ├── Request.cs                  // POCO for external requests
+    ├── Passenger.cs                // POCO for passenger with start/destination
+    ├── Direction.cs                // Enum: Up, Down, Idle
+    ├── ManualInputHandler.cs       // Manual user input logic
+
+TestCases/
+    ├── Interface/
+    │   └── ITestCaseStrategy.cs    // Strategy pattern interface for test execution
+    ├── TestCase1Strategy.cs        // Ground floor → Level 5
+    ├── TestCase2Strategy.cs        // Level 6 + Level 4 → Level 1
+    ├── TestCase3Strategy.cs        // L2 → L6, L4 → Ground
+    ├── TestCase4Strategy.cs        // Ground → L5, L4 + L10 → Ground
+
+README.md                           // Project documentation
+
 ```
 
 ---

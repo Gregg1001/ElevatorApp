@@ -1,25 +1,27 @@
-﻿// ==============================
-// Program.cs
-// ==============================
+﻿// ====================================
+// Program.cs (Strategy + Command + SRP
+// ===================================
 
 using System;
 using System.Collections.Generic;
 
 /// <summary>
-/// This is where the app starts running.
-/// It shows a main menu where you choose what to do: manual run, test case, or exit.
+/// Implements Strategy Pattern for test cases, Command Pattern for menu actions,
+/// and uses clean SRP structure with dictionary-based routing.
 /// </summary>
 class Program
 {
-    // This dictionary links user menu choices (like "1", "2", "e") to actual actions (functions).
+    // === Command Pattern ===
+    // Dictionary maps menu inputs to executable commands (methods).
     private static readonly Dictionary<string, Action> MainMenuActions = new()
     {
-        { "1", RunManualInput },          // Option 1: You control the elevator manually
-        { "2", ShowTestCaseMenu },        // Option 2: Run preset examples
-        { "e", () => Environment.Exit(0) } // Option e: Exit the program
+        { "1", RunManualInput },          // Command: Run manual elevator simulation
+        { "2", ShowTestCaseMenu },        // Command: Launch test case selection menu
+        { "e", () => Environment.Exit(0) } // Command: Exit application
     };
 
-    // This dictionary connects test case numbers to their matching strategy class
+    // === Strategy Pattern ===
+    // Each test case implements a different strategy via ITestCaseStrategy.
     private static readonly Dictionary<string, ITestCaseStrategy> TestCaseStrategies = new()
     {
         { "1", new TestCase1Strategy() },
@@ -28,16 +30,18 @@ class Program
         { "4", new TestCase4Strategy() }
     };
 
-    // Main function: this runs first when the program starts
+    // === SRP ===
+    // Main method only starts the program, delegates control to menu loop.
     static void Main(string[] args)
     {
-        RunMainMenu();  // Show the main menu loop
+        RunMainMenu();  // SRP: Separated from logic of what happens next
     }
 
-    // Main menu screen where user picks what to do
+    // === SRP + Dictionary-Based Routing ===
+    // Displays main menu and invokes corresponding action via dictionary
     private static void RunMainMenu()
     {
-        while (true) // Loop until the user exits
+        while (true)
         {
             Console.WriteLine("\n=== Elevator Simulation ===");
             Console.WriteLine("1. Manual Input");
@@ -47,23 +51,24 @@ class Program
 
             var choice = Console.ReadLine()?.Trim().ToLower();
 
-            // Check if choice is valid and run the matching action
+            // === Command Execution ===
             if (choice != null && MainMenuActions.TryGetValue(choice, out var action))
             {
-                action.Invoke(); // Run the chosen function
+                action.Invoke(); // Invokes bound command (Command Pattern)
             }
             else
             {
-                Console.WriteLine("Invalid option."); // Wrong input
+                Console.WriteLine("Invalid option.");
             }
         }
     }
 
-    // This is where the user controls the elevator manually
+    // === SRP ===
+    // Handles all logic for manually entering elevator requests
     private static void RunManualInput()
     {
-        var elevator = Elevator.Instance; // Get the singleton instance
-        elevator.ResetToGround(); // Reset to floor 0
+        var elevator = Elevator.Instance; // === Singleton Pattern ===
+        elevator.ResetToGround();
 
         Console.Write("Enter number of external requests: ");
         var input = Console.ReadLine()?.Trim();
@@ -81,7 +86,7 @@ class Program
             int floor;
             Direction direction;
 
-            // STEP 1: Ask which floor the person is on
+            // Input: Floor
             while (true)
             {
                 Console.Write($"Request {i + 1} - Floor you're on (0-10): ");
@@ -97,7 +102,7 @@ class Program
                 break;
             }
 
-            // STEP 2: Ask which direction they want to go
+            // Input: Direction
             while (true)
             {
                 Console.Write($"Request {i + 1} - Direction (up/down): ");
@@ -131,11 +136,11 @@ class Program
             Console.WriteLine($"Passenger externally pressed \"{direction}\" at floor {floor}.");
         }
 
-        // First, handle all external pickups
+        // Run SCAN algorithm with external requests
         Console.WriteLine("\nRunning elevator...");
         elevator.Run();
 
-        // THEN ask for internal destinations
+        // Input internal destinations
         Console.Write("\nEnter number of internal destinations: ");
         var destInput = Console.ReadLine()?.Trim();
         if (!int.TryParse(destInput, out int internalCount) || internalCount <= 0) return;
@@ -164,13 +169,12 @@ class Program
             }
         }
 
-        // Now run the elevator again to handle internal requests
         Console.WriteLine("\nRunning elevator...");
         elevator.Run();
     }
 
-
-    // Shows a submenu of preset examples (test cases)
+    // === Strategy Pattern ===  
+    // Runs pre-defined test case scenarios by executing selected strategy  
     private static void ShowTestCaseMenu()
     {
         while (true)
@@ -185,14 +189,14 @@ class Program
 
             var input = Console.ReadLine()?.Trim().ToLower();
 
-            // If user types "b", go back to main menu
+            // Back out  
             if (input == "b")
                 return;
 
-            // Run selected test case strategy
-            if (TestCaseStrategies.TryGetValue(input, out var strategy))
+            // === Strategy Execution ===  
+            if (!string.IsNullOrEmpty(input) && TestCaseStrategies.TryGetValue(input, out var strategy))
             {
-                strategy.Execute(); // Execute that test case
+                strategy.Execute(); // Executes selected strategy  
                 Console.WriteLine($"\nTest Case {input} completed.");
             }
             else
@@ -201,6 +205,4 @@ class Program
             }
         }
     }
-
-
 }
